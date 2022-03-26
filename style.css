@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navber{
+    display: flex;
+    padding: 20px 0;
+    align-items: center;
+    font-family: sans-serif;
+    justify-content: space-between;
+    background-color: blueviolet;
+}
+/*====== logo text at the bottom ==== */
+.brandText{
+    display: flex;
+    color: white;
+    font-size: 20px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+/*------- navber links at the bottom ------- */
+.navlinks{
+    display: flex;
+}
+.navlinks ul{
+    display: flex;
+    
+}
+.navlinks ul li{
+    list-style: none;
+}
+.searchIcon{
+    width: 22px;
+    margin-right: 50px;
+    margin-left: 20px;
+    box-shadow: none;
+}
+.navlinks ul li a{
+    margin: 0 10px;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-size: 22px;
+}
+.navlinks ul li a:hover{
+    box-shadow: 1px 2px 50px;
+}
+/*=========== navar toggle button at the bottom =========== */
+.toggleButton{
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+.barLine{
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*========== Media queiry at the bottom ================ */
+
+
+
+
+@media (max-width: 1301px ){
+    .toggleButton{
+        display: flex;
+        
+    }
+    .navlinks{
+        display: none;
+
+    }
+    .navber{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navlinks ul{
+        flex-direction: column;
+        width: 100vw;
+    }
+    .navlinks ul li{
+        margin: 20px 0;
+        text-align: center;
+    }
+    .navlinks:active{
+        display: flex;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+
+/*---------- navbar working start ------ */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 80px;
+    width: 100%;
+    padding: 0 30px;
+    background-color: #fff;
+    color: #000;
+}
+.navbar-links{
+    display: flex;
+    flex-direction: column;
+    
+}
+.navbar-links ul{
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+}
+.navbar-links ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 10px;
+    padding: 10px 20px ;
+    border-radius: 10px;
+}
+.navbar-links ul li a:hover{
+    box-shadow: 1px 1px 50px orange;
+    color: orangered;
+
+}
+
+/*========   title-banner   ====== */
+
+.title-banner{
+    height: 350px;
+    width: 100%;
+    background-color: blue;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title-banner p{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;        /* themetesting23.blogspot.com  er moto korar jonno inspect kore code dakha j kar koto px */
+    letter-spacing: 1px;
+    color: #fff;
+    text-align: center;
+}
+.title-banner h1{
+    display: flex;
+    font-weight: 700;
+    letter-spacing: 1.6px;
+    color: #fff;
+    font-size: 35px;
+    line-height: 45px;
+    position: relative;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+    text-align: center;
+    
+}
